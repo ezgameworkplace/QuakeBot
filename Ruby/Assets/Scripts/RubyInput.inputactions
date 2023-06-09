@@ -1,0 +1,34 @@
+{
+    "name": "RubyInput",
+    "maps": [
+        {
+            "name": "Ruby",
+            "id": "dc4be964-cb17-48c1-86b9-fdc304ac3162",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "f52f8ab0-0829-455f-80e4-5705673de42f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "156d5c63-01a3-4d2d-b664-703fa9231dab",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
