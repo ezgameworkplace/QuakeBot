@@ -33,7 +33,7 @@ if __name__ == '__main__':
     # 用你的命令替换 "your_command_here"
     dict_cmd = {
         "command": "ClickButton",
-        "parameters": "Attack"
+        "parameters": "Talk"
     }
     while True:
         time.sleep(0.5)

@@ -170,7 +170,7 @@ public class SocketServer : MonoBehaviour
         {
             if (obj.name == objectName)
             {
-                Button myButton = GameObject.Find("Attack").GetComponent<Button>();
+                Button myButton = GameObject.Find(objectName).GetComponent<Button>();
                 myButton.onClick.Invoke();
                 // Send a message back to the client
                 string response = obj.name + " button clicked successfully!";
