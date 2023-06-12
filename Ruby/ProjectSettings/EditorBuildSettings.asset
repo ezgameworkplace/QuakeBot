@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainScene.unity
-    guid: 187f61afa37f8df4086d1613bfaf930f
-  - enabled: 1
     path: Assets/Scenes/QuakeBot.unity
     guid: a377677d6751dcc49bba5f2d133fa826
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 187f61afa37f8df4086d1613bfaf930f
   m_configObjects: {}
