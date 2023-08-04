@@ -33,8 +33,12 @@ if __name__ == '__main__':
     # 用你的命令替换 "your_command_here"
     dict_cmd = {
         "command": "ClickButton",
-        "parameters": "Talk"
+        "parameters": "Attack"
     }
     while True:
         time.sleep(0.5)
         send_command_to_unity(dict_cmd)
+
+    # for android: use adb forward
+    # 例子： adb -s {设备serial} forward tcp:<local> tcp:<remote>
+    # local 和 remote 默认 999
